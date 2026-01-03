@@ -1,0 +1,13 @@
+# ESP32 Clap-to-Tasmota Switch
+This project allows you to toggle a Tasmota smart plug by clapping your hands.
+
+## Features
+- Sound detection via Analog Microphone
+- WiFi connectivity
+- HTTP requests to Tasmota devices
+- Adjustable sensitivity thresholds
+
+## Wiring
+- VCC -> 3.3V
+- GND -> GND
+- AO  -> GPIO 34
